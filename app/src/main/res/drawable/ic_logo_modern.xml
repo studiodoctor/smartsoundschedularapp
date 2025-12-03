@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background shape - Squircle style -->
+    <path
+        android:pathData="M54,14
+                          C75,14 94,33 94,54
+                          C94,75 75,94 54,94
+                          C33,94 14,75 14,54
+                          C14,33 33,14 54,14 Z"
+        android:fillColor="#6750A4"/>
+
+    <!-- Inner gradient layer -->
+    <path
+        android:pathData="M54,20
+                          C71,20 88,37 88,54
+                          C88,71 71,88 54,88
+                          C37,88 20,71 20,54
+                          C20,37 37,20 54,20 Z"
+        android:fillColor="#7E67B0"
+        android:fillAlpha="0.6"/>
+
+    <!-- Clock body -->
+    <path
+        android:pathData="M54,54m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Clock face -->
+    <path
+        android:pathData="M54,54m-21,0a21,21 0,1 1,42 0a21,21 0,1 1,-42 0"
+        android:fillColor="#F7F2FA"/>
+
+    <!-- Stylized hour markers - dots -->
+    <path
+        android:pathData="M54,36m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#6750A4"/>
+    <path
+        android:pathData="M72,54m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#6750A4"/>
+    <path
+        android:pathData="M54,72m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#6750A4"/>
+    <path
+        android:pathData="M36,54m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#6750A4"/>
+
+    <!-- Modern hour hand -->
+    <path
+        android:pathData="M54,54L54,42"
+        android:strokeWidth="4"
+        android:strokeColor="#6750A4"
+        android:strokeLineCap="round"/>
+
+    <!-- Modern minute hand -->
+    <path
+        android:pathData="M54,54L66,48"
+        android:strokeWidth="3"
+        android:strokeColor="#9A82DB"
+        android:strokeLineCap="round"/>
+
+    <!-- Center modern dot -->
+    <path
+        android:pathData="M54,54m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"
+        android:fillColor="#6750A4"/>
+    <path
+        android:pathData="M54,54m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Sound indicator - modern arc style -->
+    <path
+        android:pathData="M82,48 Q88,54 82,60"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M86,44 Q94,54 86,64"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.7"/>
+
+    <!-- Mute indicator on left -->
+    <path
+        android:pathData="M22,51 L28,57 M28,51 L22,57"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.8"/>
+</vector>

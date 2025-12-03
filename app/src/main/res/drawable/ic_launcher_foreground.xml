@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background Circle with Gradient Effect -->
+    <group>
+        <!-- Outer glow circle -->
+        <path
+            android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"
+            android:fillColor="#E8DEF8"
+            android:fillAlpha="0.5"/>
+
+        <!-- Main circle -->
+        <path
+            android:pathData="M54,54m-35,0a35,35 0,1 1,70 0a35,35 0,1 1,-70 0"
+            android:fillColor="#6750A4"/>
+
+        <!-- Inner highlight -->
+        <path
+            android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+            android:fillColor="#7E67B0"/>
+    </group>
+
+    <!-- Clock Face -->
+    <group>
+        <!-- Clock outer ring -->
+        <path
+            android:pathData="M54,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"
+            android:fillColor="#FFFFFF"/>
+
+        <!-- Clock inner -->
+        <path
+            android:pathData="M54,54m-19,0a19,19 0,1 1,38 0a19,19 0,1 1,-38 0"
+            android:fillColor="#F3EDF7"/>
+
+        <!-- Hour markers -->
+        <!-- 12 o'clock -->
+        <path
+            android:pathData="M54,36L54,40"
+            android:strokeWidth="2.5"
+            android:strokeColor="#6750A4"
+            android:strokeLineCap="round"/>
+        <!-- 3 o'clock -->
+        <path
+            android:pathData="M72,54L68,54"
+            android:strokeWidth="2.5"
+            android:strokeColor="#6750A4"
+            android:strokeLineCap="round"/>
+        <!-- 6 o'clock -->
+        <path
+            android:pathData="M54,72L54,68"
+            android:strokeWidth="2.5"
+            android:strokeColor="#6750A4"
+            android:strokeLineCap="round"/>
+        <!-- 9 o'clock -->
+        <path
+            android:pathData="M36,54L40,54"
+            android:strokeWidth="2.5"
+            android:strokeColor="#6750A4"
+            android:strokeLineCap="round"/>
+
+        <!-- Hour hand -->
+        <path
+            android:pathData="M54,54L54,44"
+            android:strokeWidth="3"
+            android:strokeColor="#6750A4"
+            android:strokeLineCap="round"/>
+
+        <!-- Minute hand -->
+        <path
+            android:pathData="M54,54L64,54"
+            android:strokeWidth="2.5"
+            android:strokeColor="#9A82DB"
+            android:strokeLineCap="round"/>
+
+        <!-- Center dot -->
+        <path
+            android:pathData="M54,54m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+            android:fillColor="#6750A4"/>
+    </group>
+
+    <!-- Sound Wave Icons -->
+    <group>
+        <!-- Left sound wave (muted indicator) -->
+        <path
+            android:pathData="M28,48 L28,60"
+            android:strokeWidth="2"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeAlpha="0.9"/>
+        <path
+            android:pathData="M24,51 L24,57"
+            android:strokeWidth="2"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeAlpha="0.7"/>
+
+        <!-- Right sound wave (active indicator) -->
+        <path
+            android:pathData="M80,48 L80,60"
+            android:strokeWidth="2"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeAlpha="0.9"/>
+        <path
+            android:pathData="M84,45 L84,63"
+            android:strokeWidth="2"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeAlpha="0.7"/>
+        <path
+            android:pathData="M88,50 L88,58"
+            android:strokeWidth="2"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeAlpha="0.5"/>
+    </group>
+</vector>

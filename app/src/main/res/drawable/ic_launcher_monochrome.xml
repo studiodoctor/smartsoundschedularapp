@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Clock outline -->
+    <path
+        android:pathData="M54,54m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0"
+        android:strokeWidth="3"
+        android:strokeColor="#000000"
+        android:fillColor="#00000000"/>
+
+    <!-- Hour markers -->
+    <path
+        android:pathData="M54,30L54,36"
+        android:strokeWidth="2.5"
+        android:strokeColor="#000000"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M78,54L72,54"
+        android:strokeWidth="2.5"
+        android:strokeColor="#000000"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M54,78L54,72"
+        android:strokeWidth="2.5"
+        android:strokeColor="#000000"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M30,54L36,54"
+        android:strokeWidth="2.5"
+        android:strokeColor="#000000"
+        android:strokeLineCap="round"/>
+
+    <!-- Clock hands -->
+    <path
+        android:pathData="M54,54L54,40"
+        android:strokeWidth="3"
+        android:strokeColor="#000000"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M54,54L68,54"
+        android:strokeWidth="2.5"
+        android:strokeColor="#000000"
+        android:strokeLineCap="round"/>
+
+    <!-- Center dot -->
+    <path
+        android:pathData="M54,54m-3.5,0a3.5,3.5 0,1 1,7 0a3.5,3.5 0,1 1,-7 0"
+        android:fillColor="#000000"/>
+
+    <!-- Sound waves right -->
+    <path
+        android:pathData="M85,47 Q92,54 85,61"
+        android:strokeWidth="2.5"
+        android:strokeColor="#000000"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M90,42 Q100,54 90,66"
+        android:strokeWidth="2.5"
+        android:strokeColor="#000000"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"/>
+</vector>

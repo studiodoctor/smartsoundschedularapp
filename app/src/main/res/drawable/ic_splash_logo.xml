@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer glow -->
+    <path
+        android:pathData="M100,100m-90,0a90,90 0,1 1,180 0a90,90 0,1 1,-180 0"
+        android:fillColor="#E8DEF8"
+        android:fillAlpha="0.3"/>
+
+    <!-- Main circle background -->
+    <path
+        android:pathData="M100,100m-75,0a75,75 0,1 1,150 0a75,75 0,1 1,-150 0"
+        android:fillColor="#6750A4"/>
+
+    <!-- Gradient overlay -->
+    <path
+        android:pathData="M100,100m-65,0a65,65 0,1 1,130 0a65,65 0,1 1,-130 0"
+        android:fillColor="#7E67B0"/>
+
+    <!-- Clock face background -->
+    <path
+        android:pathData="M100,100m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Clock inner face -->
+    <path
+        android:pathData="M100,100m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0"
+        android:fillColor="#F7F2FA"/>
+
+    <!-- Hour markers -->
+    <!-- 12 -->
+    <path
+        android:pathData="M100,58L100,68"
+        android:strokeWidth="4"
+        android:strokeColor="#6750A4"
+        android:strokeLineCap="round"/>
+    <!-- 3 -->
+    <path
+        android:pathData="M142,100L132,100"
+        android:strokeWidth="4"
+        android:strokeColor="#6750A4"
+        android:strokeLineCap="round"/>
+    <!-- 6 -->
+    <path
+        android:pathData="M100,142L100,132"
+        android:strokeWidth="4"
+        android:strokeColor="#6750A4"
+        android:strokeLineCap="round"/>
+    <!-- 9 -->
+    <path
+        android:pathData="M58,100L68,100"
+        android:strokeWidth="4"
+        android:strokeColor="#6750A4"
+        android:strokeLineCap="round"/>
+
+    <!-- Minor hour markers -->
+    <!-- 1 -->
+    <path
+        android:pathData="M120,63L117,69"
+        android:strokeWidth="2"
+        android:strokeColor="#9A82DB"
+        android:strokeLineCap="round"/>
+    <!-- 2 -->
+    <path
+        android:pathData="M137,80L131,83"
+        android:strokeWidth="2"
+        android:strokeColor="#9A82DB"
+        android:strokeLineCap="round"/>
+    <!-- 4 -->
+    <path
+        android:pathData="M137,120L131,117"
+        android:strokeWidth="2"
+        android:strokeColor="#9A82DB"
+        android:strokeLineCap="round"/>
+    <!-- 5 -->
+    <path
+        android:pathData="M120,137L117,131"
+        android:strokeWidth="2"
+        android:strokeColor="#9A82DB"
+        android:strokeLineCap="round"/>
+    <!-- 7 -->
+    <path
+        android:pathData="M80,137L83,131"
+        android:strokeWidth="2"
+        android:strokeColor="#9A82DB"
+        android:strokeLineCap="round"/>
+    <!-- 8 -->
+    <path
+        android:pathData="M63,120L69,117"
+        android:strokeWidth="2"
+        android:strokeColor="#9A82DB"
+        android:strokeLineCap="round"/>
+    <!-- 10 -->
+    <path
+        android:pathData="M63,80L69,83"
+        android:strokeWidth="2"
+        android:strokeColor="#9A82DB"
+        android:strokeLineCap="round"/>
+    <!-- 11 -->
+    <path
+        android:pathData="M80,63L83,69"
+        android:strokeWidth="2"
+        android:strokeColor="#9A82DB"
+        android:strokeLineCap="round"/>
+
+    <!-- Hour hand (pointing to 10) -->
+    <path
+        android:pathData="M100,100L80,75"
+        android:strokeWidth="6"
+        android:strokeColor="#6750A4"
+        android:strokeLineCap="round"/>
+
+    <!-- Minute hand (pointing to 2) -->
+    <path
+        android:pathData="M100,100L125,80"
+        android:strokeWidth="4"
+        android:strokeColor="#9A82DB"
+        android:strokeLineCap="round"/>
+
+    <!-- Center dot -->
+    <path
+        android:pathData="M100,100m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0"
+        android:fillColor="#6750A4"/>
+    <path
+        android:pathData="M100,100m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Sound waves - Left (muted) -->
+    <path
+        android:pathData="M30,90L30,110"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.8"/>
+    <path
+        android:pathData="M22,95L22,105"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.5"/>
+
+    <!-- Sound waves - Right (active) -->
+    <path
+        android:pathData="M170,90L170,110"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.9"/>
+    <path
+        android:pathData="M178,85L178,115"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.7"/>
+    <path
+        android:pathData="M186,92L186,108"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.5"/>
+
+    <!-- Bell icon at bottom -->
+    <path
+        android:pathData="M100,170 L95,180 L105,180 Z"
+        android:fillColor="#E8DEF8"
+        android:fillAlpha="0.8"/>
+    <path
+        android:pathData="M92,175 Q100,165 108,175"
+        android:strokeWidth="3"
+        android:strokeColor="#E8DEF8"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.8"/>
+</vector>
