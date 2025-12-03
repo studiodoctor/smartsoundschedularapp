@@ -10,7 +10,7 @@
 [![Material 3](https://img.shields.io/badge/Material%203-Design-purple.svg)](https://m3.material.io)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-<img src="screenshots/app_banner.png" alt="Smart Sound Scheduler Banner" width="100%">
+<img src="screenshots/1.jpg" alt="Smart Sound Scheduler Banner" width="100%">
 
 [Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Tech Stack](#-tech-stack) • [Architecture](#-architecture) • [Contributing](#-contributing)
 
@@ -60,16 +60,18 @@ Never forget to silence your phone during meetings or unmute it after work again
 <div align="center">
 <table>
   <tr>
-    <td><img src="screenshots/home_screen.png" alt="Home Screen" width="200"/></td>
-    <td><img src="screenshots/add_schedule.png" alt="Add Schedule" width="200"/></td>
-    <td><img src="screenshots/time_picker.png" alt="Time Picker" width="200"/></td>
-    <td><img src="screenshots/settings.png" alt="Settings" width="200"/></td>
+    <td><img src="screenshots/1.jpg" alt="Home Screen" width="200"/></td>
+    <td><img src="screenshots/2.jpg" alt="Add Schedule" width="200"/></td>
+    <td><img src="screenshots/3.jpg" alt="Time Picker" width="200"/></td>
+    <td><img src="screenshots/4.jpg" alt="Settings" width="200"/></td>
+    <td><img src="screenshots/2.jpg" alt="Settings" width="200"/></td>
   </tr>
   <tr>
-    <td align="center"><b>Home Screen</b></td>
-    <td align="center"><b>Add Schedule</b></td>
-    <td align="center"><b>Time Picker</b></td>
-    <td align="center"><b>Settings</b></td>
+    <td align="center"><b>Screen 1</b></td>
+    <td align="center"><b>Screen 2</b></td>
+    <td align="center"><b>Screen 3</b></td>
+    <td align="center"><b>Screen 4</b></td>
+    <td align="center"><b>Screen 5</b></td>
   </tr>
 </table>
 </div>
