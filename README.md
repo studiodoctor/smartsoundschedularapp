@@ -97,3 +97,20 @@ cd smart-sound-scheduler
 # Open in Android Studio and sync Gradle
 # Or build via command line:
 ./gradlew assembleDebug
+
+
+## 💖 Support the Project
+
+If you find this project helpful, please consider supporting its development:
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/studiodoctor">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=yourusername&button_colour=6750A4&font_colour=ffffff&font_family=Poppins&outline_colour=ffffff&coffee_colour=FFDD00" alt="Buy Me A Coffee"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/studiodoctor">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height="60">
+  </a>
+</p>
