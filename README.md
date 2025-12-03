@@ -10,7 +10,7 @@
 [![Material 3](https://img.shields.io/badge/Material%203-Design-purple.svg)](https://m3.material.io)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-<img src="screenshots/1.jpg" alt="Smart Sound Scheduler Banner" width="100%">
+<img src="screenshots/1.jpg" alt="Smart Sound Scheduler Banner" width="400">
 
 [Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Tech Stack](#-tech-stack) • [Architecture](#-architecture) • [Contributing](#-contributing)
 
@@ -72,23 +72,6 @@ Never forget to silence your phone during meetings or unmute it after work again
     <td align="center"><b>Screen 3</b></td>
     <td align="center"><b>Screen 4</b></td>
     <td align="center"><b>Screen 5</b></td>
-  </tr>
-</table>
-</div>
-
-<div align="center">
-<table>
-  <tr>
-    <td><img src="screenshots/conflict_detection.png" alt="Conflict Detection" width="200"/></td>
-    <td><img src="screenshots/day_selector.png" alt="Day Selector" width="200"/></td>
-    <td><img src="screenshots/dark_mode.png" alt="Dark Mode" width="200"/></td>
-    <td><img src="screenshots/empty_state.png" alt="Empty State" width="200"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Conflict Detection</b></td>
-    <td align="center"><b>Day Selector</b></td>
-    <td align="center"><b>Dark Mode</b></td>
-    <td align="center"><b>Empty State</b></td>
   </tr>
 </table>
 </div>
